@@ -1,0 +1,17 @@
+M deleted node , C child
+if M merah -> langsung ganti
+if M hitam & C hitam ->  token double black
+
+kondisi jika ada token double black:
+- kondisi 1 jika S merah, SL & SR hitam
+maka reverse color P dan S dan rotate di P , token ikut rotate. cek kondisi lagi
+
+- kondisi 2 jika s hitam, SL & SR hitam
+maka recolor S = red , token black pindah ke P
+jika warna P merah recolor jadi hitam, jika P = hitam maka terjadi double black lagi
+
+- kondisi 3 jika S = hitam , SL / SR merah
+maka rotate di parent (single/double), parent baru mengikuti warna parent lama dan kedua anaknya jadi hitam , lalu token black hilang
+
+nb : jika token double black berada pada node merah, maka node tsb menjadi hitam dan
+token double black hilang.

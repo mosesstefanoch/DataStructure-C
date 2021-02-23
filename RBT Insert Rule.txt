@@ -1,0 +1,8 @@
+Insert :
+Node baru selalu merah
+Jika :
+- Parent Black, no violation
+- Parent Red, violation :
+o JIka sibling Red, ubah p dan s jadi Black dan parent dari p jadi Red.
+o Jika sibling Black / tidak ada, do rotation (single or double), pivot jadi hitam dan
+anak2nya jadi merah.

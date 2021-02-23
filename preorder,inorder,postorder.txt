@@ -1,0 +1,36 @@
+Post Order : Left, Right, Do
+
+			 10
+		       /    \
+		      5	     20
+		       \     / \
+		        8   15 30
+Post Order : 
+8,5,15,30,20,10
+
+
+Inorder : Left, Do, Right
+
+			 10
+		       /    \
+		      5	     20
+		       \     / \
+		        8   15 30
+
+Inorder :
+5,8,10,15,20,30
+
+
+Pre Order : Do, Left, Right
+
+			 10
+		       /    \
+		      5	     20
+		       \     / \
+		        8   15 30
+
+Pre Order :
+10,5,8,20,15,30
+
+
+Moses Stefano Christofel - 2201754766
